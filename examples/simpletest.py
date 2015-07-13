@@ -26,6 +26,6 @@ sensor = BMP085.BMP085()
 
 
 print('Temperatur:'+sensor.read_temperature())
-print('Luftdruck:'+sensor.read_temperature())
+print('Luftdruck:'+sensor.read_pressure())
 print('Höhe:'+sensor.read_altitude())
 print('Meeresspiegeldruck:'+sensor.read_sealevel_pressure())
