@@ -1,21 +1,16 @@
-Adafruit Python BMP
+Python3 BMP
 ===================
 
-Python library for accessing the BMP series pressure and temperature sensors like the BMP085/BMP180 on a Raspberry Pi or Beaglebone Black.
+Mit dieser Libary kannst du einfach Sensor Daten aus dem DHT11 auslesen und weiter verbinden. Diese Libary funktioniert auch mit Python 3. Getestet mit: Raspberry Pi B+/Raspberry Pi 2 Version B
 
-Designed specifically to work with the Adafruit BMP085/BMP180 pressure sensors ----> https://www.adafruit.com/products/1603
+Diese Libary basiert auf https://github.com/adafruit/Adafruit_Python_BMP
 
-To install, download the library by clicking the download zip link to the right and unzip the archive somewhere on your Raspberry Pi or Beaglebone Black.  Then execute the following command in the directory of the library:
+Lizens: MIT license
+
 
 ````
-sudo python setup.py install
+apt-get update
+sudo apt-get install build-essential python3-dev
+git clone https://github.com/coding-world/Python_BMP.git
+sudo python3 setup.py install
 ````
-
-Make sure you have internet access on the device so it can download the required dependencies.
-
-See examples of usage in the examples folder.
-
-Adafruit invests time and resources providing this open source code, please support Adafruit and open-source hardware by purchasing products from Adafruit!
-
-Written by Tony DiCola for Adafruit Industries.
-MIT license, all text above must be included in any redistribution
