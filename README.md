@@ -7,10 +7,20 @@ Diese Libary basiert auf https://github.com/adafruit/Adafruit_Python_BMP
 
 Lizens: MIT license
 
+Installation für den Raspberry Pi:
 
 ````
 apt-get update
+````
+
+````
 sudo apt-get install build-essential python3-dev
+````
+
+````
 git clone https://github.com/coding-world/Python_BMP.git
+````
+
+````
 sudo python3 setup.py install
 ````
